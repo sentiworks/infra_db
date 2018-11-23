@@ -20,7 +20,7 @@ CREATE TABLE employees (
     last_name   VARCHAR(16)     NOT NULL,
     gender      ENUM ('M','F')  NOT NULL,    
     hire_date   DATE            NOT NULL,
-    manager_id  INT,                    -- recursive
+    manager_id  INT,
     PRIMARY KEY (emp_id)
 );
 
